@@ -108,8 +108,8 @@ body {
 
 .section {
     width: 100%;
-    padding-top: 188px;
-    padding-bottom: 188px;
+        padding-top: 120px;
+        padding-bottom: 120px;
 }
 
 .first-section {
@@ -160,7 +160,7 @@ body {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-bottom: 60px;
+    margin-bottom: 72px;
 }
 
 .features-list,
@@ -219,6 +219,7 @@ body {
     text-align: center;
     color: #2e2f42;
     margin-top: 10px;
+    margin-bottom: 8px;
 }
 
 .team-member-role {
@@ -231,17 +232,22 @@ body {
 }
 
 .portfolio-item {
-    padding: 16px;
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     box-shadow: 0 2px 1px rgba(46, 47, 66, 0.1);
+    border-top: none;
 }
-
+.portfolio-item-info {
+    border-radius: 0px 0px 4px 4px;
+}
 .portfolio-item img {
     width: 100%;
     height: auto;
     border-radius: 4px 4px 0 0;
 }
-
+.portfolio-title {
+    margin-bottom: 8px;
+}
 .footer {
     background-color: #2e2f42;
     text-align: center;
@@ -270,4 +276,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
